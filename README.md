@@ -2,7 +2,7 @@
 
 This repo contains the `.nuspec` and installer scripts for distributing the **AgentHub CLI** on Windows via [Chocolatey](https://chocolatey.org/).
 
-## 📦 Install (after package is published):
+## 📦 Install:
 
 ```powershell
 choco install agenthub
