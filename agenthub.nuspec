@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>agenthub</id>
+    <version>1.0.0</version>
+    <title>AgentHub CLI</title>
+    <authors>AgentHub Team</authors>
+    <owners>agenthubcli</owners>
+    <projectUrl>https://agenthubcli.com</projectUrl>
+    <description>CLI to install, run, and publish agents and tools</description>
+    <tags>ai cli agent tools automation</tags>
+    <licenseUrl>https://github.com/agenthubcli/agenthub/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+</package>
