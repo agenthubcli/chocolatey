@@ -1,3 +1,4 @@
-$toolsPath = Split-Path $MyInvocation.MyCommand.Definition
-$exePath = Join-Path $toolsPath "agenthub.exe"
-Install-ChocolateyShortcut -ShortcutFilePath "$env:Public\Desktop\AgentHub.lnk" -TargetPath $exePath
+   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+        = "https://github.com/agenthubcli/agenthub/releases/download/0.2.5/agenthub-0.2.5-windows-amd64.zip"
+        = "agenthub.exe"
+Install-ChocolateyZipPackage 'agenthub' $url $toolsDir

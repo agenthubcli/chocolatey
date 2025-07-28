@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>agenthub</id>
-    <version>1.0.0</version>
+    <version>0.2.5</version>
     <title>AgentHub CLI</title>
     <authors>AgentHub Team</authors>
     <owners>agenthubcli</owners>
